@@ -1,0 +1,23 @@
+Cairngorm Release Notes
+=======================
+
+What is Cairngorm
+-----------------
+The Cairngorm Microarchitecture is a lightweight yet prescriptive framework for Rich Internet application (RIA) development.
+
+Cairngorm is an implementation of design patterns that the consultants at Adobe Consulting have successfully taken from enterprise software development (with technologies including J2EE and .NET) and applied rich Internet application development using Adobe Flex.
+
+Cairngorm can be downloaded in binary and source forms from http://opensource.adobe.com/wiki/display/cairngorm. This package is the source distribution. Documentation can also be downloaded from the same location.
+
+If you wish to use Cairngorm with LiveCycle Data Services other than RemoteObject, WebService or HTTPService, then you should also download Cairngorm Enterprise, available at the same location. The other services within LiveCycle Data Services have a dependency on fds.swc, which does is not shipped with the standard Flex Framework, so any dependencies have been externalised to Cairngorm Enterprise.
+
+Building Cairngorm 
+------------------
+This downloadable zip for Cairngorm is a ready-to-use FlexBuilder project  structure. To build Cairngorm, extract the zip to a known location and import it into your FlexBuilder workspace. 
+
+There is also an Ant script to Compile, generate Cairngorm.swc, generate ASDoc and package everything, but you may have to change it (or build.properties) to match your environment.
+
+Using Cairngorm
+---------------
+To use the compiled Cairngorm in your Flex application, copy Cairngorm.swc from the \bin to a location on your actionscript classpath.
+

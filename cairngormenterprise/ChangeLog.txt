@@ -1,0 +1,12 @@
+Cairngorm Enterprise Change Log
+===============================
+
+Changes between this Cairngorm Enterprise 2.2.2 and Cairngorm Enterprise 2.2.1
+-----------------------------------------------------------
+- added maven support
+- added flex4 conditional compilation
+- Fixed bug with setting new credentials on services
+
+Changes between Cairngorm Enterprise 2.2.1 and Cairngorm Enterprise 2.2
+-----------------------------------------------------------------------
+- Changed EnterpriseServiceLocator to reflect moving of classes to LiveCycle Data Services (fds.swc)

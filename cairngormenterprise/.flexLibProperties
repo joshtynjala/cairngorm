@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexLibProperties includeAllClasses="false" version="3">
+  <includeClasses>
+    <classEntry path="com.adobe.cairngorm.enterprise.business.Consumers"/>
+    <classEntry path="com.adobe.cairngorm.enterprise.business.DataServices"/>
+    <classEntry path="com.adobe.cairngorm.enterprise.business.EnterpriseServiceLocator"/>
+    <classEntry path="com.adobe.cairngorm.enterprise.business.IEnterpriseServiceLocator"/>
+    <classEntry path="com.adobe.cairngorm.enterprise.business.Producers"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="Windows XP.properties" sourcePath="Windows XP.properties"/>
+    <resourceEntry destPath="ReleaseNotes.txt" sourcePath="ReleaseNotes.txt"/>
+    <resourceEntry destPath="License.txt" sourcePath="License.txt"/>
+    <resourceEntry destPath="ChangeLog.txt" sourcePath="ChangeLog.txt"/>
+    <resourceEntry destPath="antlib/flexTasks.jar" sourcePath="antlib/flexTasks.jar"/>
+    <resourceEntry destPath="build.xml" sourcePath="build.xml"/>
+    <resourceEntry destPath="Linux.properties" sourcePath="Linux.properties"/>
+    <resourceEntry destPath="build.properties" sourcePath="build.properties"/>
+    <resourceEntry destPath="config.xsl" sourcePath="config.xsl"/>
+    <resourceEntry destPath="cairngorm-enterprise-manifest.xml" sourcePath="cairngorm-enterprise-manifest.xml"/>
+  </includeResources>
+  <namespaceManifests>
+    <namespaceManifestEntry manifest="cairngorm-enterprise-manifest.xml" namespace="http://www.adobe.com/2006/cairngorm"/>
+  </namespaceManifests>
+</flexLibProperties>

@@ -1,0 +1,34 @@
+Cairngorm Enterprise Release Notes
+==================================
+
+What is Cairngorm
+-----------------
+The Cairngorm Microarchitecture is a lightweight yet prescriptive framework  for Rich Internet application (RIA) development.
+
+Cairngorm is an implementation of design patterns that the consultants at  Adobe Consulting have successfully taken from enterprise software development (with technologies including J2EE and .NET) and applied rich Internet application development using Adobe Flex.
+
+Cairngorm can be downloaded in binary and source forms from http://opensource.adobe.com/wiki/display/cairngorm/Cairngorm. This package is the source distribution.  Documentation can also be downloaded from the same location.
+
+What is Cairngorm Enterprise
+----------------------------
+With the release of Flex 2 and the separation of LiveCyle Data Services from the Flex Framework, there was a need to separate out those parts of Cairngorm dependant on the classes in LiveCycle Data Services (fds.swc). Those parts of Cairngorm reside in Cairngorm Enterprise.
+
+When Do I Need Cairngorm Enterprise
+-----------------------------------
+Generally, if you want to use any LiveCyle Data Services other than RemoteObject, WebService or HTTPService, then you should include this CairngormEnterprise.swc 
+in your application. 
+
+Building Cairngorm Enterprise
+-----------------------------
+This downloadable zip for Cairngorm Enterprise is a ready-to-use FlexBuilder project structure. To build Cairngorm Enterprise, extract the zip to a known 
+location and import it into your FlexBuilder workspace. 
+
+Cairngorm Enterprise has a Flex Library path set up to find both Cairngorm (as a Library project) and fds.swc (in the ${FRAMEWORKS}\libs directory). To use FlexBuilder to compile Cairngorm Enterprise, you must copy fds.swc from your FDS SDK libs folder (<FDS_DIR>\flex_sdk_2\frameworks\libs) to your FlexBuilder SDK libs folder (<FLEXBUILDER_DIR>\Flex SDK 2\frameworks\libs).
+
+There is also an Ant script to Compile, generate CairngormEnterprise.swc, generate ASDoc and package everything, and you will likely have to change it (or build.properties) to match your environment.
+
+Using Cairngorm Enterprise
+--------------------------
+To use the compiled Cairngorm Enterprise in your Flex 2 application, copy CairngormEnterprise.swc from the \bin to a location on your actionscript classpath.
+
+
